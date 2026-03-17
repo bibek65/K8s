@@ -23,3 +23,14 @@
 ### give a URL to external service in minikube
 
     minikube service mongo-express-service
+
+### mongo-express web UI credentials
+
+    Username: admin
+    Password: pass
+
+    Note: These are default demo credentials. Change them for any non-local/production environment.
+
+    Note: The MongoDB admin credentials (stored in mongo-secret.yaml) are:
+      username: username
+      password: password
